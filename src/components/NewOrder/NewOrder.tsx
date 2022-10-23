@@ -1,9 +1,9 @@
 import { useEffect, useReducer, useState } from 'react';
 import { Product } from '../Product';
-import { OrderState } from '../../models';
 import { Loader } from '../Loader';
 import { Error } from '../Error';
 import { Text } from '@ls-jacob-lawrence/fe-interview-ds';
+import { OrderState } from '../../models';
 import {
     Button,
     ButtonContainer,

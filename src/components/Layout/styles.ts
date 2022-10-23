@@ -19,7 +19,6 @@ export const Card = styled.div`
 `;
 
 export const Frame = styled.div`
-    // height: 100vh;
     justify-content: center;
     align-items: center;
     display: flex;

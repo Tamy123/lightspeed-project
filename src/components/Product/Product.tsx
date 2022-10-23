@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { OrderState } from '../../models';
 import {
     Counter,
@@ -7,7 +6,6 @@ import {
     ProductContainer,
     ProductName,
     ProductPrice,
-    // Quantity,
 } from './styles';
 
 interface ProductProps extends OrderState {

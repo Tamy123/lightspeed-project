@@ -31,9 +31,6 @@ export const Counter = styled.div`
     justify-content: space-evenly;
     align-items: center;
     margin-right: 10px;
-    > div:nth-last-child(1) {
-        border-bottom: 1px solid grey;
-    }
 `;
 
 export const CounterBox = styled.div`

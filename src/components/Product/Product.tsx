@@ -1,4 +1,5 @@
 import { OrderState } from '../../models';
+import { getPrice } from '../../utils/helpers';
 import {
     Counter,
     CounterBox,
@@ -48,9 +49,7 @@ export const Product = ({
                         +
                     </CounterButton>
                 </Counter>
-                <ProductPrice>
-                    ${(Number(price) * quantity).toFixed(2)}
-                </ProductPrice>
+                <ProductPrice>${getPrice(price, quantity)}</ProductPrice>
             </>
         </ProductContainer>
     );
